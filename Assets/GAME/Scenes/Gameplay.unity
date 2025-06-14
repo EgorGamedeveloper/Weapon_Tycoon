@@ -15605,7 +15605,19 @@ SceneRoots:
   - {fileID: 1440188995326326600}
 <<<<<<< Updated upstream
   - {fileID: 1877510799}
+<<<<<<< HEAD
   - {fileID: 2500000001}
 =======
   - {fileID: 2071034718}
 >>>>>>> Stashed changes
+=======
+  - {fileID: 1451775548}
+  - {fileID: 1977332807}
+  - {fileID: 2077073055}
+  - {fileID: 1893940876}
+  - {fileID: 1487793022}
+  - {fileID: 398368757}
+  - {fileID: 54711263}
+  - {fileID: 1720564835}
+  - {fileID: 762251046}
+>>>>>>> parent of 8d05bec (Add iron resource, kostet product and recipe)
