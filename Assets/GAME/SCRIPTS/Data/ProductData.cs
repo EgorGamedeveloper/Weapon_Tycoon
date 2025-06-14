@@ -6,7 +6,6 @@ public class ResourceData : ScriptableObject
     public string resourceName;    // Название ресурса
     public Sprite icon;            // Иконка для отображения в UI
     public int baseValue;          // Базовая ценность/цена ресурса
-    public int cost = 1;           // Стоимость покупки единицы ресурса
     // Можно добавить другие свойства, например тип, редкость и т.д.
 }
 
@@ -16,7 +15,6 @@ public class ProductData : ScriptableObject
     public string productName;    // Название готового изделия
     public Sprite icon;           // Иконка для UI
     public int sellPrice;         // Цена продажи изделия
-    public int cost = 1;          // Себестоимость изготовления
     public ResourceData producedFrom; // Сырье, из которого производится (для справки)
     // Можно добавить свойства: время производства, качество, и т.п.
 }
