@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e97def5d01a4aeaaeb161603e5893a7, type: 3}
+  m_Name: KostetRecipe
+  m_EditorClassIdentifier:
+  recipeName: Костет из железа
+  requirements:
+  - resource: {fileID: 11400000, guid: 2bc5c66a87a24264a57c8bda5f0d9b97, type: 2}
+    amount: 3
+  outputProduct: {fileID: 11400000, guid: 1c5fffe8cac44885950d1a8757b43af4, type: 2}
