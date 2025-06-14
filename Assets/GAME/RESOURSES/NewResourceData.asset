@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a36e8b06fdf44527ac4027a48d4baa0, type: 3}
-  m_Name: Iron
-  m_EditorClassIdentifier:
-  resourceName: Железо
+  m_Script: {fileID: 0}
+  m_Name: NewResourceData
+  m_EditorClassIdentifier: Assembly-CSharp::ResourceData
+  resourceName: 
   icon: {fileID: 0}
-  baseValue: 1
+  baseValue: 0
   cost: 1

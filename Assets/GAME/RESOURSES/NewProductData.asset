@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a36e8b06fdf44527ac4027a48d4baa0, type: 3}
-  m_Name: Kostet
-  m_EditorClassIdentifier:
-  productName: Костет
+  m_Name: NewProductData
+  m_EditorClassIdentifier: 
+  productName: 
   icon: {fileID: 0}
-  sellPrice: 5
-  cost: 5
+  sellPrice: 0
+  cost: 1
   producedFrom: {fileID: 0}

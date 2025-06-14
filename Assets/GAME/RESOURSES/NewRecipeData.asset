@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e97def5d01a4aeaaeb161603e5893a7, type: 3}
-  m_Name: KostetRecipe
-  m_EditorClassIdentifier:
-  recipeName: Костет из железа
+  m_Name: NewRecipeData
+  m_EditorClassIdentifier: 
+  recipeName: 111
   requirements:
-  - resource: {fileID: 11400000, guid: 2bc5c66a87a24264a57c8bda5f0d9b97, type: 2}
+  - resource: {fileID: 11400000, guid: d496f57bf399e4d4fb8506ab5ace5ef1, type: 2}
     amount: 3
-  outputProduct: {fileID: 11400000, guid: 1c5fffe8cac44885950d1a8757b43af4, type: 2}
+  outputProduct: {fileID: 11400000, guid: 7375932a79de04e14b3a5a20e2b181a2, type: 2}
