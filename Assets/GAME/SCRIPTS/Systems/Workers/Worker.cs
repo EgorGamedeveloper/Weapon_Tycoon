@@ -56,7 +56,14 @@ public class Worker : MonoBehaviour
                 if (Vector3.Distance(transform.position, targetStorage.position) < 1f)
                 {
                     // Прибыли на склад: берем ресурс (условно, проверка наличия)
-                    carryingResource = targetMachine.inputType;
+                    if (targetMachine.currentRecipe != null && targetMachine.currentRecipe.requirements.Length > 0)
+                    {
+                        carryingResource = targetMachine.currentRecipe.requirements[0].resource;
+                    }
+                    else
+                    {
+                        carryingResource = null;
+                    }
                     isCarrying = true;
                     Debug.Log("Рабочий взял ресурс со склада.");
                 }
